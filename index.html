@@ -21,6 +21,12 @@
       referrerpolicy="no-referrer" />
   </head>
   <body>
+    <div class="loader-container" id="loader">
+      <div class="loader"></div>
+    </div>
+    <div id="content" style="display: none">
+      <!-- Your main content goes here -->
+    </div>
     <header>
       <header class="bg-[#e5e5e5] py-2">
         <div class="container2 flex items-center justify-between text-center">
@@ -1094,6 +1100,14 @@
             spaceBetween: 20,
           },
         },
+      });
+    </script>
+    <script>
+      window.addEventListener("load", function () {
+        setTimeout(function () {
+          document.getElementById("loader").style.display = "none";
+          document.getElementById("content").style.display = "block";
+        }, 1000); // 1 seconds
       });
     </script>
   </body>
