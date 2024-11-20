@@ -1,0 +1,151 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.container2 {
+  width: 95%;
+  margin: auto;
+}
+@media (min-width: 1440px) {
+  .container2 {
+    width: 1400px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 900px) {
+  .smth {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: -100%;
+    background: #fff;
+    overflow-y: scroll;
+    transition: 0.5s all;
+  }
+  #check:checked ~ .smth {
+    left: 0;
+  }
+}
+.topcenter {
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.05);
+  background: #fff;
+}
+img {
+  width: auto;
+}
+@media (max-width: 900px) {
+  .showcase {
+    background-image: url(../src/assets/img/taxta.png);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+@layer base {
+  @font-face {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(../gilroy-bold/Gilroy-Bold.ttf) format("ttf");
+  }
+}
+.card1 {
+  height: 220px;
+  background-image: url(../src/assets/img/card1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+.card2 {
+  height: 220px;
+  background-image: url(../src/assets/img/card2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+.card3 {
+  height: 220px;
+  background-image: url(../src/assets/img/card3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+.card4 {
+  height: 220px;
+  background-image: url(../src/assets/img/card4.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+.card5 {
+  height: 220px;
+  background-image: url(../src/assets/img/card5.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+.card6 {
+  height: 220px;
+  background-image: url(../src/assets/img/card6.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+.card7 {
+  height: 220px;
+  background-image: url(../src/assets/img/card7.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+.card8 {
+  height: 220px;
+  background-image: url(../src/assets/img/card8.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+.card9 {
+  height: 220px;
+  background-image: url(../src/assets/img/card9.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+.card10 {
+  height: 220px;
+  background-image: url(../src/assets/img/card10.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+.card11 {
+  height: 220px;
+  background-image: url(../src/assets/img/card11.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+.card12 {
+  height: 220px;
+  background-image: url(../src/assets/img/card12.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+}
